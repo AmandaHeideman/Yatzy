@@ -1,0 +1,152 @@
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7a989a; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #17417c; 
+}
+input:focus{
+    outline:none;
+}
+input{
+    background-color: rgba(0, 0, 0, 0);
+    font:1em "ar cena";
+    color:  #17417c;
+}
+body {
+    font:1em "ar cena";
+    color:  #17417c;
+    background-color:#f8f4ed;
+    margin:0;
+}
+.header{
+    height:50px;
+    background: #b26d68;
+    margin:0; 
+    padding:0;
+}
+.header h1{
+    margin:0;
+    margin-left:10px;
+    height:40px;
+    float:left;
+    font:38px "ar berkley";
+    color:#f8f4ed;
+}
+.menu li:hover, .menu li:focus{
+    background-color:#7a989a;
+}
+.menu li{
+    display: inline;
+    list-style-type: none;
+    padding: 6px;
+}
+.menu ul{
+    margin:5px;
+    padding-bottom:5px;
+    padding-left:0px;
+    border-bottom: 2px solid #b26d68;
+}
+div.dice{
+    margin-left:10px;
+    width:150px;
+    height: 470px;
+    float:left;
+    background-color:#a1cbcd;
+    text-align:center;
+    
+}
+.dice img{
+    width: 50px;
+    margin:3px;
+}
+.dice .locked{
+    border:solid #b26d68 3px;
+    border-radius:5px;
+}
+div.yatzy_block{
+    width:380px;
+    margin:0;
+    float:left;
+    padding:10px;
+    
+}
+.yatzy_block table{
+    border:solid;
+    border-radius:5px;
+    background-color:#17417c;
+}
+.yatzy_block input{
+    width:60px;
+    border:0px;
+}
+.yatzy_block .bg td:nth-child(even){
+    background-color:#a1cbcd;
+}
+.yatzy_block th{
+    width:100px;
+    background-color:#7a989a;
+    color:#072550;
+}
+.yatzy_block .bg td:nth-child(odd){
+    background-color:white;
+}
+.yatzy_block tr.highlight{
+    background-color:#7a989a;
+    border-width:3px;
+    color: #072550;
+}
+div.chatt_block{
+    width:300px;
+    height: 470px;
+    background-color: #a1cbcd;
+    float: left;
+}
+div.chatt{
+    background-color: #f8f4ed;
+    width:270px;
+    margin:13px;
+    border:solid #17417c 3px;
+    border-radius:5px;
+}
+div.convo{
+    height:300px;
+    overflow:auto;
+    border-bottom:2px solid #17417c;
+}
+
+.chatt p{
+    background-color:white;
+    padding:3px;
+    margin:3px;
+    border-radius:5px;
+}
+p.received{
+    border: #7a989a solid;
+    float:left;
+    clear:both;
+}
+p.sent{
+    float:right;
+    border:#b26d68 solid;
+    clear:both;
+    text-align:right;
+}
+div.write{
+    height:100px;
+    background-color:white;
+}
+.write img{
+    float:right;
+    border-bottom: solid #17417c 1px;
+}
+.chatt input{
+    width:215px;
+    height:98px;
+    border:0px;
+    overflow:auto;
+    border-right:1px solid #17417c;
+}
