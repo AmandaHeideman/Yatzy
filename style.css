@@ -16,6 +16,25 @@ input{
     font:1em "ar cena";
     color:  #17417c;
 }
+button:hover, button:focus, .write button:hover, .write button:focus{
+    background-color: #b26d68;
+}
+button{
+    margin:2px;
+    padding:0px;
+    background-color:#7a989a;
+    text-align:center;
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+    font:1em "ar cena";
+    color: #072550;
+}
+a{
+    text-decoration:none;
+    color: #17417c;
+    height:30px;
+}
 body {
     font:1em "ar cena";
     color:  #17417c;
@@ -38,6 +57,7 @@ body {
 }
 .menu li:hover, .menu li:focus{
     background-color:#7a989a;
+    cursor: pointer;
 }
 .menu li{
     display: inline;
@@ -50,7 +70,7 @@ body {
     padding-left:0px;
     border-bottom: 2px solid #b26d68;
 }
-div.dice{
+div.dice, div.stats, div.friends{
     margin-left:10px;
     width:150px;
     height: 470px;
@@ -62,10 +82,14 @@ div.dice{
 .dice img{
     width: 50px;
     margin:3px;
+    cursor: pointer;
 }
 .dice .locked{
     border:solid #b26d68 3px;
     border-radius:5px;
+}
+.dice button{
+    padding:5px;
 }
 div.yatzy_block{
     width:380px;
@@ -117,7 +141,6 @@ div.convo{
     overflow:auto;
     border-bottom:2px solid #17417c;
 }
-
 .chatt p{
     background-color:white;
     padding:3px;
@@ -139,14 +162,24 @@ div.write{
     height:100px;
     background-color:white;
 }
-.write img{
+.write button{
     float:right;
-    border-bottom: solid #17417c 1px;
+    width:45px;
+    height:45px;
 }
 .chatt input{
     width:215px;
     height:98px;
     border:0px;
     overflow:auto;
-    border-right:1px solid #17417c;
+}
+
+/****************************
+        Profil
+****************************/
+
+div.profile{
+    float:left;
+    width:300px;
+    text-align:center;
 }
