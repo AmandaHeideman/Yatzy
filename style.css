@@ -179,11 +179,43 @@ div.write{
 }
 
 /****************************
-        Profil
+        Profile
 ****************************/
 
 div.profile{
     float:left;
     width:300px;
     text-align:center;
+}
+
+/****************************
+        Settings
+****************************/
+
+.leftCol{
+    margin-left:15px;
+    width:200px;
+    float:left;
+    background-color:#a1cbcd;
+    padding:10px;
+}
+.leftCol input{
+    background-color:white;
+}
+.rightCol{
+    float:right;
+    margin-right:50px;
+    background-color:#a1cbcd;
+    padding:10px;
+}
+.rightCol textarea{
+    background-color:white;
+    width:300px;
+    height:200px;
+    border:0px;
+    overflow:auto;
+    resize:none;
+    border:solid #17417c 3px;
+    border-radius:5px;
+
 }

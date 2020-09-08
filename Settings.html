@@ -23,8 +23,7 @@
             </ul>
         </div>
         <div class="settings">
-            <form method="POST"
-                action="send.php">
+            <form class="leftCol">
                 <label for="img">Select image:</label>
                 <input type="file" id="img" name="img" accept="image/*"><br>
                 
@@ -43,9 +42,6 @@
 
                 <label for="age">Ålder</label>
                 <input id="age" type="number"><br>
-
-                <label for="presentation">Presentation</label>
-                <textarea id="presentation"></textarea><br>
 
                 <label for="color">Favoritfärg</label>
                 <input id="color" type="color"><br>
@@ -75,6 +71,13 @@
                 
                 <input type="submit">
 
+            </form>
+            <form class="rightCol">
+                
+                <label for="presentation">Presentation</label><br>
+                <textarea id="presentation"></textarea><br>
+
+                <input type="submit">
             </form>
         </div>
     </body>
