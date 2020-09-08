@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head> <!--info om dokumentet-->
+        <meta charset="UTF-8"> <!-- styr vilken teckenuppsättning browswern ska använda-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inställningar - Yatzy.com</title>
+        <link href="style.css"
+        rel="stylesheet">
+        
+    </head>
+    <body>
+        <div class="header"> 
+            <h1>Yatzy.com</h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>Nytt spel</li>
+                <li><a href="yatzy.html">Utmaningar</a></li>
+                <li>Topplista</li>
+                <li><a href="Profil.html">Profil</a></li>
+                <li><a href="Settings.html">Inställningar</a></li>
+                <li>Logga ut</li>
+            </ul>
+        </div>
+        <div class="settings">
+            <form method="POST"
+                  action="send.php">
+                <label for="name">Namn</label>
+                <input id="name" type="text"><br>
+
+                <label for="password">Lösenord</label>
+                <input id="password" type="password"><br>
+
+                <label for="birthday">Födelsedatum</label>
+                <input id="birthday" type="date"><br>
+
+                <label for="email">Email</label>
+                <input id="email" type="email"><br>
+
+                <label for="age">Ålder</label>
+                <input id="age" type="number"><br>
+
+                <label for="presentation">Presentation</label>
+                <textarea id="presentation"></textarea><br>
+
+                <label for="color">Favoritfärg</label>
+                <input id="color" type="color"><br>
+
+                <label for="weekday">Favoritveckodag</label>
+                <select id="weekday">
+                    <option value="monday">Måndag</option>
+                    <option value="tueday">Tisdag</option>
+                    <option value="wednesday">Onsdag</option>
+                    <option value="thursday">Torsdag</option>
+                    <option value="friday">Fredag</option>
+                    <option value="saturday">Lördag</option>
+                    <option value="sunday">Söndag</option>
+                </select><br>
+
+                <label>Mac vs PC</label>
+                <label for="mac">Mac</label>
+                <input id="mac" type="radio" name="macvspc">
+                <label for="pc">PC</label>
+                <input id="pc" type="radio" name="macvspc"><br>
+
+                <label>TV-serier</label>
+                <label for="Buffy">Buffy</label>
+                <input id="Buffy" type="checkbox" name="series">
+                <label for="Angel">Angel</label>
+                <input id="angel" type="checkbox" name="series"><br>
+                
+
+            </form>
+        </div>
+    </body>
+</html>
