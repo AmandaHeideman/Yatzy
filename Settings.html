@@ -24,7 +24,11 @@
         </div>
         <div class="settings">
             <form method="POST"
-                  action="send.php">
+                action="send.php">
+                <label for="img">Select image:</label>
+                <input type="file" id="img" name="img" accept="image/*"><br>
+                
+
                 <label for="name">Namn</label>
                 <input id="name" type="text"><br>
 
@@ -69,6 +73,7 @@
                 <label for="Angel">Angel</label>
                 <input id="angel" type="checkbox" name="series"><br>
                 
+                <input type="submit">
 
             </form>
         </div>

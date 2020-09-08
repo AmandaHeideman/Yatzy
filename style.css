@@ -8,10 +8,10 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #17417c; 
 }
-input:focus{
+input:focus, textarea:focus, button:focus{
     outline:none;
 }
-input{
+input, textarea{
     background-color: rgba(0, 0, 0, 0);
     font:1em "ar cena";
     color:  #17417c;
@@ -167,11 +167,15 @@ div.write{
     width:45px;
     height:45px;
 }
-.chatt input{
+.write textarea{
     width:215px;
+    max-width:215px;
     height:98px;
     border:0px;
     overflow:auto;
+    float:left;
+    resize:none;
+
 }
 
 /****************************
